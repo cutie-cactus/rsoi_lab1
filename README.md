@@ -31,7 +31,7 @@
 * Приложение должно быть завернуто в Docker.
 * Деплой на Heroku реализовать средствами GitHub Actions, для деплоя использовать docker. Для деплоя _нельзя_
   использовать Heroku CLI или webhooks.
-* В [build.yml](.github/workflows/classroom.yml) дописать шаги на сборку, прогон unit-тестов и деплой на Heroku.
+* В [build.yml](.github/workflows/build.yml) дописать шаги на сборку, прогон unit-тестов и деплой на Heroku.
 * Приложение должно использовать БД для хранения записей.
 * В [[inst][heroku] Lab1.postman_environment.json](postman/%5Binst%5D%5Bheroku%5D%20Lab1.postman_environment.json)
   заменить значение `baseUrl` на адрес развернутого сервиса на Heroku.
